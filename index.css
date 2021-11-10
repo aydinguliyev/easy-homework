@@ -16,29 +16,29 @@ footer {
   font-weight: 500;
 }
 
-footer {
-  margin-top: 19rem;
-}
-
 section {
-  float: left;
   background-color: #ebebeb;
-  width: 58%;
+  flex: 40%;
   color: #777;
   font-size: 20px;
   text-align: center;
   padding-top: 25px;
+  margin-right: 10px;
+}
+
+.sec-aside {
+  display: flex;
 }
 
 aside {
-  width: 40%;
+  flex: 40%;
   background-color: #ebebeb;
-  float: right;
   color: #777;
   font-size: 22px;
   text-align: center;
   height: 244px;
   padding-top: 25px;
+  margin-left: 10px;
 }
 
 article {
